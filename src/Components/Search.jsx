@@ -24,11 +24,12 @@ const Search = () => {
     <div >
     <div style={{padding:'2em'}}>
         <h3>Simple Searching Functionality in Reactjs</h3>
-      <input
+        <input
         type="text"
         placeholder="simple search..."
         value={searchQuery}
         onChange={handleSearch}
+        style={{padding:'3px'}}
       />
       <ul>
         {filteredData.length > 0 ? (

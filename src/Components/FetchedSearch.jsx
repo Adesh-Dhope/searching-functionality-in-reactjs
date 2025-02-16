@@ -35,6 +35,7 @@ const FetchedSearch = () => {
         placeholder="fetched search ..."
         value={searchQuery}
         onChange={handleSearch}
+        style={{padding:"3px"}}
       />
       <ul>
         {filteredUsers.map((user) => (

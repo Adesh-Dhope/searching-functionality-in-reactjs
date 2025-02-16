@@ -26,6 +26,7 @@ const DebouncedSearch = () => {
         placeholder="debounced search..."
         value={searchQuery}
         onChange={(e) => setSearchQuery(e.target.value)}
+        style={{padding:'3px'}}
       />
       <ul>
         {filteredData.map((item, index) => (
